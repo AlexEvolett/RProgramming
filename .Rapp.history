@@ -1,0 +1,123 @@
+a <- available.packages()
+head(rownames(a), 3)
+a
+a <- available.packages()
+b <- available.packages()
+install.packages("slidify")
+install.packages("KernSmooth")
+library(KernSmooth)
+search()
+pwd
+getwd()
+ls()
+getwd()
+x <- matrix (1:6, 2, 3)
+x
+x [1, 2]
+x [2, 1]
+x [,2]
+x [2, 1, drop=F]
+clc
+clear
+ls
+x <- c(1, 2, na, 4, na, 5)
+x <- c(1, 2, NA, 4, NA, 5)
+x
+bad <- is.na(x)
+bad
+x[!bad]
+!bad
+class(bad)
+as.numerical(bad)
+as.numerical(bad)
+y <- matrix(rep(10, 4), 2, 2)
+y
+rep(10, 4)
+x <- 4
+class(x)
+x <- c(4, true)
+x <- c(4, True)
+x <- c(4, TRUE)
+class(x)
+rm(x)
+x
+x <- c(4, TRUE)
+class(x)
+as.numeric(bad)
+x <- c(1, 3, 5)
+y <- c(3, 2, 10)
+cbind(x, y)
+rbind(x, y)
+x <- list(2, "a", "b", TRUE)
+x
+x[[2]]
+x[2]
+x[3]
+x[4]
+x[[4]]
+x <- 1:4
+x
+y <- 2
+x + y
+x <- c(17, 14, 4, 5, 6, 10, 11, 13, 6)
+x
+x[x>10] <- 1
+x
+getwd()
+ls
+dir()
+data <- read.table("hw1_data.csv", nrows=2)
+data <- read.table("hw1_data.csv", nrows=2)
+data <- read.table("hw1_data.csv")
+data <- read.table("hw1.csv")
+dir()
+data <- read.table("hw1.csv")
+scan(hw1.csv)
+scan("hw1.csv")
+read.csv("hw1.csv")
+read.csv("hw1.csv", nrows=2)
+read.csv("hw1.csv", nrows=152:153)
+data [151]
+data [151, ]
+data
+data <- read.csv("hw1.csv")
+data
+data [153, ]
+data [152:153, ]
+data [47, 1]
+bad <- is.na(data[,1])
+bad
+data[,1]
+data[,1]bad
+bad
+as.numeric(bad)
+bad(bad>0)
+bad(x>0)
+bad[bad>0]
+length(bad)
+length(bad[bad>0])
+x<-data[,1]
+x
+bad<-is.na(x)
+x[!bad]
+length(x[!bad])
+sum(x[!bad])
+4887/116
+data
+good<- complete.cases(data)
+good
+data[good]
+data[good,]
+gdata <- data[good,]
+data[,good]
+a<-gdata[gdata$Ozone>31 & gdata$Temp>90, ]
+a
+mean(a$Solar.R)
+b<- data[data$Month ==6, ]
+b
+mean(b$Temp)
+c<- data(data$Month ==5 , )
+c<- data[data$Month ==5, ]
+c
+max(c$Ozone)
+max(c$Ozone, na.rm=TRUE)
